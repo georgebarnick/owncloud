@@ -1,0 +1,64 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Creating Account</title>
+<link rel="shortcut icon" type="image/png" href="../owncloud/core/img/favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1d2d44">
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<style type="text/css">
+* {
+        padding: 0;
+        margin: 0;
+}
+
+html {
+        height: 100%;
+}
+
+body {
+        background: #1d2d44;
+        background: -moz-linear-gradient(top, #35537a 0%, #1d2d44 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#35537a), color-stop(100%,#1d2d44));
+        background: -webkit-linear-gradient(top, #35537a 0%,#1d2d44 100%);
+        background: -o-linear-gradient(top, #35537a 0%,#1d2d44 100%);
+        background: -ms-linear-gradient(top, #35537a 0%,#1d2d44 100%);
+        background: linear-gradient(top, #35537a 0%,#1d2d44 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35537a', endColorstr='#1d2d44',GradientType=0 );
+        height: 100%;
+        text-align: center;
+        background-attachment: fixed;
+        font-family: 'Lato', sans-serif;
+}
+
+#content {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+}
+
+h1 {
+        color: #fff;
+        font-size: 2.5em;
+}
+
+span {
+        color: #fff;
+        font-size: 18px;
+}
+</style>
+</head>
+<body>
+<div id="content">
+        <img src="../images/loading.gif" alt="Loading" />
+        <h1>Creating your account...</h1>
+        <span>You'll be redirected to the login page momentarily</span>
+</div>
+<script type="text/javascript">
+window.setTimeout(function(){window.location.href = "../owncloud";},5000);
+</script>
+</body>
+</html>
