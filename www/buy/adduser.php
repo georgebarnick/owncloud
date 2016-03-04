@@ -1,7 +1,7 @@
 <?php
 
     $hnd = curl_init();
-    curl_setopt($hnd, CURLOPT_URL, "http://admin:password@localhost/owncloud/ocs/v1.php/cloud/users");
+    curl_setopt($hnd, CURLOPT_URL, "https://admin:password@localhost/owncloud/ocs/v1.php/cloud/users");
     curl_setopt($hnd, CURLOPT_NOPROGRESS, 1);
     curl_setopt($hnd, CURLOPT_FOLLOWLOCATION, 1);
     curl_setopt($hnd, CURLOPT_POSTFIELDS, "userid=" . $_POST["ocUsername"] . "&password=" . $_POST["ocPassword"]);
