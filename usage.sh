@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dd="/var/www/html/owncloud/data/" # data directory path
+dd="/media/user/data1/data/" # data directory path
 
 while test $# -gt 0
 do
