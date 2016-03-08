@@ -1,9 +1,14 @@
+<html>
+<head>
+<meta http-equiv="refresh" content="120">
 <style type="text/css">
 html, body {
         margin: 0;
         padding: 0;
 }
 </style>
+</head>
+<body>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <?php
 switch ( $_GET['size'] ) {
@@ -40,3 +45,5 @@ switch ( $_GET['size'] ) {
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</body>
+</html>
