@@ -42,7 +42,7 @@ $(document).ready(function () {
                 });
 
                 // Google Ads
-                if ( $('#content').hasClass('app-galleryplus') ) {
+                if ( $('#content').hasClass('app-gallery') ) {
                         $('.googleAds').hide();
                 }
 
