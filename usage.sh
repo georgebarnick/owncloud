@@ -1,13 +1,13 @@
 #!/bin/bash
 
-dd="/media/user/data1/data/" # data directory path
+dd="/media/sysadmin/data1/" # data directory path
 
 while test $# -gt 0
 do
         case "$1" in
                 -a) for d in $(sudo find $dd -maxdepth 1 -type d)
                 do
-                        if [[ ( $d != ${dd}updater_backup ) && ( $d != ${dd}demo ) && ( $d != ${dd}admin ) && ( $d != $dd ) ]]; then
+                        if [[ ( $d != ${dd}updater_backup ) && ( $d != ${dd}files_external ) && ( $d != ${dd}admin ) && ( $d != $dd ) ]]; then
                                 sudo du -hs $d;
                         fi
                 done
